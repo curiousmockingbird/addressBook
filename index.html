@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+    <h1>Address Book</h1>
+    <h2>Add a Contact:</h2>
+    <form id="new-contact">
+      <label for="new-first-name">First Name: </label><br>
+      <input type="text" id="new-first-name" name="new-first-name"><br>
+      <label for="new-last-name">Last Name: </label><br>
+      <input type="text" id="new-last-name" name="new-last-name"><br>
+      <label for="new-phone-number">Phone Number: </label><br>
+      <input type="text" id="new-phone-number" name="new-phone-number"><br>
+      <label for="new-email-address">Email Address: </label><br>
+      <input type="text" id="new-email-address" name="new-email-address"><br>
+      <button type="submit">Add</button><br>
+    </form>
+  
+    <h2>Contacts:</h2>
+    <div id="contacts">
+    </div>
+  
+    <div id="contact-details" class="hidden">
+      <p>First Name: <span id="first-name"></span></p><br>
+      <p>Last Name: <span id="last-name"></span></p><br>
+      <p>Phone Number: <span id="phone-number"></span></p><br>
+      <p>Email Address: <span id="email-address"></span></p><br>
+      <button class="delete" type="button">Delete</button>
+    </div>
+
+</body>
+</html>
